@@ -29,6 +29,13 @@ let modeOfTransportation = ["Bicycle", "Walk", "Run", "Plane", "Roller Skates", 
 let randomModeOfTransportation = modeOfTransportation[Math.floor(Math.random() * modeOfTransportation.length)];{
 console.log(randomModeOfTransportation, modeOfTransportation[randomModeOfTransportation]);
 }
+
+// Randomly and repeatedly select a form of entertainment from the array.
+let entertainment = ["Stay In","Karaoke", "Comedy Club", "Dance", "Theater", "Magic Show", "Festival", "Extreme Sports", "Concert", "Carnival", "Fishing", "Camping"];
+
+let randomEntertainment = entertainment[Math.floor(Math.random() * entertainment.length)];{
+console.log(randomEntertainment, entertainment[randomEntertainment]);
+}
     }
 
     randomTripGenerator();
