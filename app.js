@@ -15,6 +15,13 @@ let destinations = ["College", "Ridgeway", "Gateway", "Ester", "Sitka", "Soldotn
 let randomDestinations = destinations[Math.floor(Math.random() * destinations.length)];{
     console.log(randomDestinations, destinations[randomDestinations]);
 }
+
+// Randomly and repeatedly select a cuisine from the array.//
+let restaurants = ["Indian", "Italian", "South American", "Central American", "North American", "Japanese", "Korean", "German", "Jewish Deli"];
+
+let randomRestaurants = restaurants[Math.floor(Math.random() * restaurants.length)];{
+    console.log(randomRestaurants, restaurants[randomRestaurants]);
+}
     }
 
     randomTripGenerator();
