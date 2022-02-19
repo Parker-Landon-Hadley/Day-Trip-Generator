@@ -17,7 +17,7 @@ let randomDestinations = destinations[Math.floor(Math.random() * destinations.le
 }
 
 // Randomly and repeatedly select a cuisine from the array.//
-let restaurants = ["Indian", "Italian", "South American", "Central American", "North American", "Japanese", "Korean", "German", "Jewish Deli"];
+let restaurants = ["Cuisine: Indian", "Cuisine: Italian", "Cuisine: South American", "Cuisine: Central American", "Cuisine: North American", "Cuisine: Japanese", "Cuisine: Korean", "Cuisine: German", "Cuisine: Jewish Deli"];
 
 let randomRestaurants = restaurants[Math.floor(Math.random() * restaurants.length)];{
     console.log(randomRestaurants, restaurants[randomRestaurants]);
