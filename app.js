@@ -10,7 +10,7 @@
     console.log("Are you ready to take a trip?");
 
 // Randomly and repeatedly select a destination from the array.//
-let destinations = ["College", "Ridgeway", "Gateway", "Ester", "Sitka", "Soldotna", "Juneau", "Kenai", "Anchorage", "Palmer", "Wasilla"];
+let destinations = ["Destination: College", "Destination: Ridgeway", "Destination: Gateway", "Destination: Ester", "Destination: Sitka", "Destination: Soldotna", "Destination: Juneau", "Destination: Kenai", "Destination: Anchorage", "Destination: Palmer", "Destination: Wasilla"];
 
 let randomDestinations = destinations[Math.floor(Math.random() * destinations.length)];{
     console.log(randomDestinations, destinations[randomDestinations]);
