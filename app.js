@@ -22,6 +22,13 @@ let restaurants = ["Indian", "Italian", "South American", "Central American", "N
 let randomRestaurants = restaurants[Math.floor(Math.random() * restaurants.length)];{
     console.log(randomRestaurants, restaurants[randomRestaurants]);
 }
+
+// Randomly and repeatedly select a mode of transportation from the array.
+let modeOfTransportation = ["Bicycle", "Walk", "Run", "Plane", "Roller Skates", "Teleportation", "Drive", "Piggy Back", "Hitch-Hike"];
+
+let randomModeOfTransportation = modeOfTransportation[Math.floor(Math.random() * modeOfTransportation.length)];{
+console.log(randomModeOfTransportation, modeOfTransportation[randomModeOfTransportation]);
+}
     }
 
     randomTripGenerator();
