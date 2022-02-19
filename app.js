@@ -24,7 +24,7 @@ let randomRestaurants = restaurants[Math.floor(Math.random() * restaurants.lengt
 }
 
 // Randomly and repeatedly select a mode of transportation from the array.
-let modeOfTransportation = ["Bicycle", "Walk", "Run", "Plane", "Roller Skates", "Teleportation", "Drive", "Piggy Back", "Hitch-Hike"];
+let modeOfTransportation = ["Transportation: Bicycle", "Transportation: Walk", "Transportation: Run", "Transportation: Plane", "Transportation: Roller Skates", "Transportation: Teleportation", "Transportation: Drive", "Transportation: Piggy Back", "Transportation: Hitch-Hike"];
 
 let randomModeOfTransportation = modeOfTransportation[Math.floor(Math.random() * modeOfTransportation.length)];{
 console.log(randomModeOfTransportation, modeOfTransportation[randomModeOfTransportation]);
