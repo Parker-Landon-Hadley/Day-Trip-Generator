@@ -31,7 +31,7 @@ console.log(randomModeOfTransportation, modeOfTransportation[randomModeOfTranspo
 }
 
 // Randomly and repeatedly select a form of entertainment from the array.
-let entertainment = ["Stay In","Karaoke", "Comedy Club", "Dance", "Theater", "Magic Show", "Festival", "Extreme Sports", "Concert", "Carnival", "Fishing", "Camping"];
+let entertainment = ["Entertainment: Clam Digging","Entertainment: Karaoke", "Entertainment: Comedy Club", "Entertainment: Dance", "Entertainment: Theater", "Entertainment: Magic Show", "Entertainment: Festival", "Entertainment: Extreme Sports", "Entertainment: Concert", "Entertainment: Carnival", "Entertainment: Fishing", "Entertainment: Camping"];
 
 let randomEntertainment = entertainment[Math.floor(Math.random() * entertainment.length)];{
 console.log(randomEntertainment, entertainment[randomEntertainment]);
